@@ -6,6 +6,7 @@ using Windows.Devices.Gpio;
 
 namespace HardwareDevices
 {
+    // Untested, use at your own risk etc
     public class HCSR04
     {
         private GpioPin triggerPin { get; set; }
